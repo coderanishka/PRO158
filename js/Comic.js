@@ -27,10 +27,10 @@ AFRAME.registerComponent("comics", {
         url: "./assets/thumbnails/CalvinAndHobbes2.jpg",
       },
     ];
-    let preXpos = -60;
+    let preXpos = -85;
 
     for (var item of thumbNailsRef) {
-      const posX = preXpos + 25;
+      const posX = preXpos + 35;
       const posY = 10;
       const posZ = -40;
       const position = { x: posX, y: posY, z: posZ };
